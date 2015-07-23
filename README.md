@@ -1,8 +1,10 @@
 Vaadin Component Having Focus 
 ==============
 This is a sample to show how to request in Vaadin the next component having focus using JavaScript [document.activeElement](http://www.w3schools.com/jsref/prop_document_activeelement.asp).
+[Demo](http://vaadinactiveelement.lgo.io/)
 
 This project based on a Template for a simple Vaadin application that only requires a Servlet 3.0 container to run:
+
 
 Workflow
 ========
