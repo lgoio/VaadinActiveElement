@@ -77,4 +77,4 @@ References
 
 License
 ========
-[LPGL License](LICENSE)
+[LGPL License](LICENSE)
