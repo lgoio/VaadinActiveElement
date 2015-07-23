@@ -1,4 +1,4 @@
-package vaadin.addon;
+package vaadin.addons;
 
 import javax.servlet.annotation.WebServlet;
 
@@ -26,7 +26,7 @@ import com.vaadin.ui.VerticalLayout;
  *
  */
 @Theme("activeelement")
-@Widgetset("vaadin.addon.ActiveElementWidgetset")
+@Widgetset("vaadin.addons.ActiveElementWidgetset")
 @SuppressWarnings("serial")
 public class ActiveElementUI extends UI {
 

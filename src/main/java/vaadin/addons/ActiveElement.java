@@ -1,4 +1,4 @@
-package vaadin.addon;
+package vaadin.addons;
 
 import java.io.Serializable;
 
