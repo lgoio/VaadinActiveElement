@@ -181,8 +181,8 @@
 							<classpathScope>compile</classpathScope>
 							<mainClass>com.vaadin.sass.SassCompiler</mainClass>
 							<arguments>
-								<argument>src/main/webapp/VAADIN/themes/heijunka/styles.scss</argument>
-								<argument>src/main/webapp/VAADIN/themes/heijunka/styles.css</argument>
+								<argument>src/main/webapp/VAADIN/themes/activeelement/styles.scss</argument>
+								<argument>src/main/webapp/VAADIN/themes/activeelement/styles.css</argument>
 							</arguments>
 						</configuration>
 					</execution>

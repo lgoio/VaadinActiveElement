@@ -49,5 +49,7 @@ References
 * [Creating a Vaadin Maven project](https://vaadin.com/wiki/-/wiki/Main/Creating+a+Maven+project)
 * [HTML DOM activeElement Property](http://www.w3schools.com/jsref/prop_document_activeelement.asp)
 * [Vaadin Integrating JavaScript Components and Extensions](https://vaadin.com/book/vaadin7/-/page/gwt.javascript.html)
-
+* [Maven - POM: How to make the jetty port changeable](http://stackoverflow.com/questions/3334454/maven-pom-how-to-make-the-jetty-port-changeable-so-that-it-can-be-retrieved-l)
+* [VAADIN cannot find themes when in productionMode](http://stackoverflow.com/questions/16561633/vaadin-cannot-find-themes-when-in-productionmode)
+* [m2e plugin of Eclipse doesn't know of exec-maven-plugin](http://stackoverflow.com/questions/21721846/exec-maven-plugin1-2-1-in-ecipse)
 [LPGL License](LICENSE)
