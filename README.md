@@ -1,6 +1,7 @@
 Vaadin Component Having Focus 
 ==============
 This is a sample to show how to request in Vaadin the next component having focus using JavaScript [document.activeElement](http://www.w3schools.com/jsref/prop_document_activeelement.asp).
+
 [Demo](http://vaadinactiveelement.lgo.io/)
 
 This project based on a Template for a simple Vaadin application that only requires a Servlet 3.0 container to run:
@@ -45,6 +46,25 @@ next theme compilation or running the "mvn clean" target.
 When developing the theme, running the application in the "run" mode (rather than
 in "debug") in the IDE can speed up consecutive on-the-fly theme compilations
 significantly.
+
+Production mode
+-------------------------
+change [ActiveElementUI.java](src/main/java/vaadin/addons/ActiveElementUI.java):
+	
+	@VaadinServletConfiguration(ui = ActiveElementUI.class, productionMode = false)
+
+to 
+	
+	@VaadinServletConfiguration(ui = ActiveElementUI.class, productionMode = true)
+
+change [pom.xml](pom.xml):
+	
+	<scanIntervalSeconds>2</scanIntervalSeconds>
+	
+to 
+
+	<!-- <scanIntervalSeconds>2</scanIntervalSeconds> -->
+
 
 References
 ========
