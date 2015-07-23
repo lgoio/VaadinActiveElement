@@ -1,5 +1,5 @@
 //@see https://vaadin.com/book/vaadin7/-/page/gwt.javascript.html
-window.vaadin_addon_ActiveElement = function() {
+window.vaadin_addons_ActiveElement = function() {
 	var self = this;
 	//called by ActiveElement.java
 	this.request = function() {
